@@ -142,11 +142,157 @@ table {
 }
 
 
-/* actual style for the htl file */
+/* actual style for the html file */
 
 .container {
     margin: 0 auto;
-    padding-left: 4%;
-    padding-right: 4%;
-    width: 92%;
+    padding-left: 8%;
+    padding-right: 8%;
+    width: 100%;
+}
+
+.second-container {
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+
+/* styling the nav bar */
+
+nav .container {
+    height: 42px;
+    border-bottom: 1px solid rgb(221, 215, 215);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-nav-section {
+    display: flex;
+    width: 250px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-icon {
+    width: 20px;
+    height: 2px;
+    background-color: black;
+    margin: 4px 0;
+    cursor: pointer;
+}
+
+.search-btn>img {
+    width: 20px;
+    cursor: pointer;
+}
+
+.left-nav-section>a {
+    text-decoration: none;
+    color: black;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.left-nav-section>a:hover {
+    text-decoration: underline;
+}
+
+.middle-nav-section>a>img {
+    height: 30px;
+}
+
+.right-nav-section>button {
+    height: 35px;
+    background-color: #5882a1;
+    color: white;
+    border-radius: 6%;
+    font-size: 12px;
+    font-weight: 800;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: 10px;
+    border-color: #326891;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.right-nav-section>button:hover {
+    background-color: #326891;
+}
+
+
+/* Styling the header */
+
+header {
+    margin: 50px 0;
+}
+
+header>h1 {
+    font-size: 40px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+
+/* Styling the header figure */
+
+.header-figure {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+
+.header-img {
+    height: 675px;
+}
+
+.header-figcaption {
+    padding-top: 10px;
+    color: rgb(95, 92, 92);
+    width: 70%;
+    line-height: 20px;
+}
+
+.header-figcaption>span {
+    font-size: 13px;
+    color: rgb(124, 120, 120);
+}
+
+.figcaption-author {
+    margin: 40px 0;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.figcaption-author>span {
+    font-weight: bold;
+}
+
+.figcaption-author>span>a {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    border-bottom: 1px solid lightgray;
+}
+
+.figcaption-author>span>a:hover {
+    border-bottom: unset;
+}
+
+.figcaption-author>time {
+    font-size: 13px;
+}
+
+
+/* styling the sign-up part */
+
+.sign-up>hr {
+    border: 0.5px solid rgb(221, 215, 215);
 }
