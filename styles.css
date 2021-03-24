@@ -296,3 +296,136 @@ header>h1 {
 .sign-up>hr {
     border: 0.5px solid rgb(221, 215, 215);
 }
+
+.signup-content {
+    margin: 20px 0;
+}
+
+.signup-btn {
+    float: right;
+    background-color: white;
+    font-weight: bold;
+    width: 80px;
+    height: 30px;
+    border: 0.5px solid black;
+    border-radius: 5%;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.signup-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.signup-content>p>span {
+    font-weight: bold;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-size: 14px;
+    color: black;
+}
+
+.signup-content>p {
+    font-style: italic;
+    color: rgb(48, 47, 47);
+    width: calc(100% - 100px);
+}
+
+
+/* Styling the article paragraphs till the editors'picks */
+
+.article {
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.article>p {
+    margin-bottom: 25px;
+}
+
+.article-hr {
+    border: 0.5px solid rgb(221, 215, 215);
+    width: 100px;
+}
+
+.thanks-subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+}
+
+.thanks {
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.subscribe {
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 20px;
+    color: rgb(50, 104, 145);
+    cursor: pointer;
+}
+
+.article>p>a {
+    color: #2b7ab8;
+}
+
+
+/* Styling the editors' picks */
+
+.editors-picks {
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 285px;
+}
+
+.editors-picks>h3 {
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+.editors-picks>hr {
+    border: 0.5px solid rgb(236, 231, 231);
+    width: 200px;
+    margin: 0;
+    margin: 10px 0;
+}
+
+.editors-img {
+    width: 85px;
+    height: 80px;
+}
+
+.pick {
+    display: flex;
+    margin: 10px 0;
+}
+
+.pick>a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    cursor: pointer;
+    line-height: 18px;
+}
+
+.pick>a:hover {
+    text-decoration: underline;
+}
+
+.second-section {
+    position: relative;
+}
+
+aside {
+    position: absolute;
+    right: 80px;
+    top: 100px;
+}
