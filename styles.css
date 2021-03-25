@@ -445,32 +445,121 @@ aside {
 
 .inflation-theory>span {
     font-weight: bold;
-    line-height: 5px;
+    line-height: 40px;
+    font-family: nyt-cheltenham, georgia, times new roman, times, serif;
+    font-size: 20px;
 }
 
 .inflation-img {
     width: 100%;
     margin: 20px 0;
     position: relative;
+    margin: 15px 0;
+}
+
+.inflation-theory>p {
+    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+    color: rgb(117, 113, 113);
+    font-size: 14px;
+    line-height: 18px;
 }
 
 
-/* Random styling for the remaining of the page */
+/* Styling the video */
 
 iframe {
     width: 100%;
 }
 
+.video-caption {
+    padding-top: 10px;
+    color: rgb(95, 92, 92);
+    width: 70%;
+    line-height: 20px;
+    font-size: 16px;
+    width: 80%;
+}
+
+.video-caption>span {
+    font-size: 13px;
+    color: rgb(124, 120, 120);
+}
+
+
+/* Styling the telescope figure */
+
+.telescope {
+    margin: auto;
+    width: 50%;
+}
+
 .telescope>img {
     width: 100%;
-    transform: scale(1.2);
-    margin: 3em 0;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+}
+
+.telescope>figcaption {
+    color: rgb(95, 92, 92);
+    line-height: 20px;
+    font-size: 16px;
+    width: 95%;
+    margin-bottom: 3em;
+}
+
+.telescope>figcaption>span {
+    font-size: 13px;
+    color: rgb(124, 120, 120);
+}
+
+
+/* Styling the end of the article */
+
+.article-end {
+    color: rgb(95, 92, 92);
+    line-height: 20px;
+    font-size: 13px;
+    width: 95%;
+    margin-bottom: 3em;
+    font-weight: 500;
+}
+
+.article-end>span>a {
+    color: rgb(95, 92, 92);
+    cursor: pointer;
+}
+
+.article-end>span>a:hover {
+    text-decoration: none;
+}
+
+
+/* Styling the bottom links */
+
+.article-bottom {
+    border-top: 5px double rgb(226, 222, 222);
+    width: 80%;
+    margin: auto;
+}
+
+.bottom-header {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-header-img {
+    height: 30px;
 }
 
 .bottom-links {
     display: flex;
-    width: 80%;
-    margin: auto;
+    width: 100%;
+}
+
+.home-page {
+    display: flex;
 }
 
 .column {
