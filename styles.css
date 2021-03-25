@@ -443,7 +443,10 @@ aside {
     margin: auto;
 }
 
-.inflation-theory>span {}
+.inflation-theory>span {
+    font-weight: bold;
+    line-height: 5px;
+}
 
 .inflation-img {
     width: 100%;
