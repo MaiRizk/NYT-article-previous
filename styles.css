@@ -348,7 +348,7 @@ header h1 {
 }
 
 .article a {
- color: #2b7ab8;
+  color: #2b7ab8;
 }
 
 /* Styling the editors' picks */
@@ -501,7 +501,7 @@ iframe {
 .article-bottom {
   border-top: 5px double rgb(226, 222, 222);
   width: 80%;
-  margin: auto;  
+  margin: auto; 
 }  
   
 .bottom-header   {
