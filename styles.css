@@ -81,12 +81,12 @@ time,
 mark,
 audio,
 video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font: inherit;
-    font-size: 100%;
-    vertical-align: baseline;
+margin: 0;
+padding: 0;
+border: 0;
+font: inherit;
+font-size: 100%;
+vertical-align: baseline;
 }
 
 article,
@@ -100,34 +100,34 @@ hgroup,
 menu,
 nav,
 section {
-    display: block;
+display: block;
 }
 
 body {
-    line-height: 1;
+line-height: 1;
 }
 
 ol,
 ul {
-    list-style: none;
+list-style: none;
 }
 
 blockquote,
 q {
-    quotes: none;
+quotes: none;
 }
 
 blockquote::before,
 blockquote::after,
 q::before,
 q::after {
-    content: "";
-    content: none;
+content: "";
+content: none;
 }
 
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+border-collapse: collapse;
+border-spacing: 0;
 }
 
 /* Setting up box sizing */
@@ -135,444 +135,444 @@ table {
 *,
 *::before,
 *::after {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
 }
 
 /* actual style for the html file */
 
 .container {
-    margin: 0 auto;
-    padding-left: 8%;
-    padding-right: 8%;
-    width: 100%;
+margin: 0 auto;
+padding-left: 8%;
+padding-right: 8%;
+width: 100%;
 }
 
 .second-container {
-    padding-left: 30%;
-    padding-right: 30%;
+padding-left: 30%;
+padding-right: 30%;
 }
 
 /* styling the nav bar */
 
 nav .container {
-    height: 42px;
-    border-bottom: 1px solid rgb(221, 215, 215);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+height: 42px;
+border-bottom: 1px solid rgb(221, 215, 215);
+display: flex;
+justify-content: space-between;
+align-items: center;
 }
 
 .left-nav-section {
-    display: flex;
-    width: 250px;
-    align-items: center;
-    justify-content: space-between;
+display: flex;
+width: 250px;
+align-items: center;
+justify-content: space-between;
 }
 
 .menu-icon {
-    display: flex;
-    flex-direction: column;
-    width: 20px;
-    height: 2px;
-    background-color: black;
-    margin: 4px 0;
-    cursor: pointer;
+display: flex;
+flex-direction: column;
+width: 20px;
+height: 2px;
+background-color: black;
+margin: 4px 0;
+cursor: pointer;
 }
 
 .search-btn img {
-    width: 20px;
-    cursor: pointer;
+width: 20px;
+cursor: pointer;
 }
 
 .left-nav-section a {
-    text-decoration: none;
-    color: black;
-    font-family: nyt-franklin, helvetica, arial, sans-serif;
-    font-weight: 800;
-    font-size: 15px;
+text-decoration: none;
+color: black;
+font-family: nyt-franklin, helvetica, arial, sans-serif;
+font-weight: 800;
+font-size: 15px;
 }
 
 .middle-nav-section img {
-    height: 30px;
+height: 30px;
 }
 
 .right-nav-section button {
-    height: 35px;
-    background-color: #5882a1;
-    color: white;
-    border-radius: 6%;
-    font-size: 12px;
-    font-weight: 800;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-left: 10px;
-    border-color: #326891;
-    -moz-box-shadow: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    cursor: pointer;
+height: 35px;
+background-color: #5882a1;
+color: white;
+border-radius: 6%;
+font-size: 12px;
+font-weight: 800;
+padding-right: 15px;
+padding-left: 15px;
+margin-left: 10px;
+border-color: #326891;
+-moz-box-shadow: none;
+-webkit-box-shadow: none;
+box-shadow: none;
+cursor: pointer;
 }
 
 /* Styling the header */
 
 header {
-    margin: 50px 0;
+margin: 50px 0;
 }
 
 header h1 {
-    font-size: 40px;
-    font-weight: 600;
-    font-style: italic;
+font-size: 40px;
+font-weight: 600;
+font-style: italic;
 }
 
 /* Styling the header figure */
 
 .header-figure {
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    margin: auto;
+display: flex;
+flex-direction: column;
+width: 80%;
+margin: auto;
 }
 
 .header-img {
-    height: 675px;
+height: 675px;
 }
 
 .header-figcaption {
-    padding-top: 10px;
-    color: rgb(95, 92, 92);
-    width: 70%;
-    line-height: 20px;
+padding-top: 10px;
+color: rgb(95, 92, 92);
+width: 70%;
+line-height: 20px;
 }
 
 .header-figcaption span {
-    font-size: 13px;
-    color: rgb(124, 120, 120);
+font-size: 13px;
+color: rgb(124, 120, 120);
 }
 
 .figcaption-author {
-    margin: 40px 0;
-    height: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+margin: 40px 0;
+height: 50px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
 }
 
 .figcaption-author span {
-    font-weight: bold;
+font-weight: bold;
 }
 
 .figcaption-author a {
-    color: black;
-    cursor: pointer;
-    text-decoration: none;
-    border-bottom: 1px solid lightgray;
+color: black;
+cursor: pointer;
+text-decoration: none;
+border-bottom: 1px solid lightgray;
 }
 
 .figcaption-author time {
-    font-size: 13px;
+font-size: 13px;
 }
 
 /* styling the sign-up part */
 
 .sign-up hr {
-    border: 0.5px solid rgb(221, 215, 215);
+border: 0.5px solid rgb(221, 215, 215);
 }
 
 .signup-content {
-    margin: 20px 0;
+margin: 20px 0;
 }
 
 .signup-btn {
-    float: right;
-    background-color: white;
-    font-weight: bold;
-    width: 80px;
-    height: 30px;
-    border: 0.5px solid black;
-    border-radius: 5%;
-    cursor: pointer;
-    font-size: 15px;
+float: right;
+background-color: white;
+font-weight: bold;
+width: 80px;
+height: 30px;
+border: 0.5px solid black;
+border-radius: 5%;
+cursor: pointer;
+font-size: 15px;
 }
 
 .signup-content span {
-    font-weight: bold;
-    font-family: nyt-franklin, helvetica, arial, sans-serif;
-    font-size: 14px;
-    color: black;
+font-weight: bold;
+font-family: nyt-franklin, helvetica, arial, sans-serif;
+font-size: 14px;
+color: black;
 }
 
 .signup-content p {
-    font-style: italic;
-    color: rgb(48, 47, 47);
-    width: calc(100% - 100px);
+font-style: italic;
+color: rgb(48, 47, 47);
+width: calc(100% - 100px);
 }
 
 /* Styling the article paragraphs till the editors'picks */
 
 .article {
-    font-size: 22px;
-    line-height: 30px;
+font-size: 22px;
+line-height: 30px;
 }
 
 .article p {
-    margin-bottom: 25px;
+margin-bottom: 25px;
 }
 
 .article-hr {
-    border: 0.5px solid rgb(221, 215, 215);
-    width: 100px;
+border: 0.5px solid rgb(221, 215, 215);
+width: 100px;
 }
 
 .thanks-subscribe {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px 0;
-    font-family: nyt-franklin, helvetica, arial, sans-serif;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 20px 0;
+font-family: nyt-franklin, helvetica, arial, sans-serif;
 }
 
 .thanks {
-    font-weight: bold;
-    line-height: 20px;
+font-weight: bold;
+line-height: 20px;
 }
 
 .subscribe {
-    font-weight: bold;
-    text-decoration: none;
-    line-height: 20px;
-    color: rgb(50, 104, 145);
-    cursor: pointer;
+font-weight: bold;
+text-decoration: none;
+line-height: 20px;
+color: rgb(50, 104, 145);
+cursor: pointer;
 }
 
 .article a {
-    color: #2b7ab8;
+color: #2b7ab8;
 }
 
 /* Styling the editors' picks */
 
 .editors-picks {
-    font-family: nyt-franklin, helvetica, arial, sans-serif;
-    position: absolute;
-    width: 15%;
+font-family: nyt-franklin, helvetica, arial, sans-serif;
+position: absolute;
+width: 15%;
 }
 
 .editors-picks h3 {
-    font-weight: bolder;
-    font-size: 14px;
+font-weight: bolder;
+font-size: 14px;
 }
 
 .editors-picks hr {
-    border: 0.5px solid rgb(236, 231, 231);
-    width: 200px;
-    margin: 0;
-    margin: 10px 0;
+border: 0.5px solid rgb(236, 231, 231);
+width: 200px;
+margin: 0;
+margin: 10px 0;
 }
 
 .editors-img {
-    width: 85px;
-    height: 80px;
+width: 85px;
+height: 80px;
 }
 
 .pick {
-    display: flex;
-    margin: 10px 0;
+display: flex;
+margin: 10px 0;
 }
 
 .pick a {
-    text-decoration: none;
-    color: black;
-    font-size: 13px;
-    display: flex;
-    align-items: center;
-    padding-left: 20px;
-    cursor: pointer;
-    line-height: 18px;
+text-decoration: none;
+color: black;
+font-size: 13px;
+display: flex;
+align-items: center;
+padding-left: 20px;
+cursor: pointer;
+line-height: 18px;
 }
 
 .second-section {
-    position: relative;
-    width: 100%;
+position: relative;
+width: 100%;
 }
 
 aside {
-    top: 100px;
-    left: 78%;
+top: 100px;
+left: 78%;
 }
 
 /* Styling as big as it gets part */
 
 .article-h3 {
-    font-weight: bold;
-    margin-bottom: 15px;
+font-weight: bold;
+margin-bottom: 15px;
 }
 
 .inflation-theory {
-    width: 60%;
-    margin: auto;
+width: 60%;
+margin: auto;
 }
 
 .inflation-theory span {
-    font-weight: bold;
-    line-height: 40px;
-    font-family: nyt-cheltenham, georgia, times new roman, times, serif;
-    font-size: 20px;
+font-weight: bold;
+line-height: 40px;
+font-family: nyt-cheltenham, georgia, times new roman, times, serif;
+font-size: 20px;
 }
 
 .inflation-img {
-    width: 100%;
-    position: relative;
-    margin: 15px 0;
+width: 100%;
+position: relative;
+margin: 15px 0;
 }
 
 .inflation-theory p {
-    font-family: nyt-imperial, georgia, "times new roman", times, serif;
-    color: rgb(117, 113, 113);
-    font-size: 14px;
-    line-height: 18px;
+font-family: nyt-imperial, georgia, "times new roman", times, serif;
+color: rgb(117, 113, 113);
+font-size: 14px;
+line-height: 18px;
 }
 
 /* Styling the video */
 
 iframe {
-    width: 100%;
-    border: 0;
+width: 100%;
+border: 0;
 }
 
 .video-caption {
-    padding-top: 10px;
-    color: rgb(95, 92, 92);
-    line-height: 20px;
-    font-size: 16px;
-    width: 80%;
+padding-top: 10px;
+color: rgb(95, 92, 92);
+line-height: 20px;
+font-size: 16px;
+width: 80%;
 }
 
 .video-caption span {
-    font-size: 13px;
-    color: rgb(124, 120, 120);
+font-size: 13px;
+color: rgb(124, 120, 120);
 }
 
 /* Styling the telescope figure */
 
 .telescope {
-    margin: auto;
-    width: 50%;
+margin: auto;
+width: 50%;
 }
 
 .telescope img {
-    width: 100%;
-    margin-top: 2em;
-    margin-bottom: 0.5em;
+width: 100%;
+margin-top: 2em;
+margin-bottom: 0.5em;
 }
 
 .telescope figcaption {
-    color: rgb(95, 92, 92);
-    line-height: 20px;
-    font-size: 16px;
-    width: 95%;
-    margin-bottom: 3em;
+color: rgb(95, 92, 92);
+line-height: 20px;
+font-size: 16px;
+width: 95%;
+margin-bottom: 3em;
 }
 
 .telescope span {
-    font-size: 13px;
-    color: rgb(124, 120, 120);
+font-size: 13px;
+color: rgb(124, 120, 120);
 }
 
 /* Styling the end of the article */
 
 .article-end {
-    color: rgb(95, 92, 92);
-    line-height: 20px;
-    font-size: 13px;
-    width: 95%;
-    margin-bottom: 3em;
-    font-weight: 500;
+color: rgb(95, 92, 92);
+line-height: 20px;
+font-size: 13px;
+width: 95%;
+margin-bottom: 3em;
+font-weight: 500;
 }
 
 .article-end a {
-    color: rgb(95, 92, 92);
-    cursor: pointer;
+color: rgb(95, 92, 92);
+cursor: pointer;
 }
 
 /* Styling the bottom links */
 
 .article-bottom {
-    border-top: 5px double rgb(226, 222, 222);
-    width: 80%;
-    margin: auto;
+border-top: 5px double rgb(226, 222, 222);
+width: 80%;
+margin: auto;
 }
 
 .bottom-header {
-    margin-top: 10px;
-    margin-bottom: 25px;
-    display: flex;
-    justify-content: space-between;
+margin-top: 10px;
+margin-bottom: 25px;
+display: flex;
+justify-content: space-between;
 }
 
 .bottom-header-img {
-    height: 30px;
+height: 30px;
 }
 
 .bottom-links {
-    display: flex;
-    width: 100%;
+display: flex;
+width: 100%;
 }
 
 .home-page {
-    display: flex;
+display: flex;
 }
 
 .column {
-    width: calc(100% / 6);
-    font-family: nyt-franklin, helvetica, arial, sans-serif;
-    font-size: 12px;
+width: calc(100% / 6);
+font-family: nyt-franklin, helvetica, arial, sans-serif;
+font-size: 12px;
 }
 
 footer {
-    width: 80%;
-    margin: auto;
-    padding-top: 15px;
-    padding-bottom: 20px;
+width: 80%;
+margin: auto;
+padding-top: 15px;
+padding-bottom: 20px;
 }
 
 .column h4 {
-    margin-bottom: 10px;
-    font-weight: bold;
+margin-bottom: 10px;
+font-weight: bold;
 }
 
 .column li {
-    margin-bottom: 10px;
+margin-bottom: 10px;
 }
 
 .article-bottom a {
-    height: 30px;
+height: 30px;
 }
 
 /* Sytling hover actions for the whole page */
 
 .left-nav-section a:hover {
-    text-decoration: underline;
+text-decoration: underline;
 }
 
 .right-nav-section button:hover {
-    background-color: #326891;
+background-color: #326891;
 }
 
 .figcaption-author a:hover {
-    border-bottom: unset;
+border-bottom: unset;
 }
 
 .signup-btn:hover {
-    background-color: black;
-    color: white;
+background-color: black;
+color: white;
 }
 
 .pick a:hover {
-    text-decoration: underline;
+text-decoration: underline;
 }
 
 .article-end a:hover {
-    text-decoration: none;
+text-decoration: none;
 }
