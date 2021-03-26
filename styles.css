@@ -501,10 +501,10 @@ iframe {
 .article-bottom {
   border-top: 5px double rgb(226, 222, 222);
   width: 80%;
-  margin: auto; 
-}  
-  
-.bottom-header   {
+  margin: auto;
+}
+
+.bottom-header {
   margin-top: 10px;
   margin-bottom: 25px;
   display: flex;
