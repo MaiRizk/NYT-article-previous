@@ -380,7 +380,7 @@ header>h1 {
     font-family: nyt-franklin, helvetica, arial, sans-serif;
     display: flex;
     flex-direction: column;
-    width: 285px;
+    width: 20%;
 }
 
 .editors-picks>h3 {
@@ -422,6 +422,7 @@ header>h1 {
 
 .second-section {
     position: relative;
+    width: 100%;
 }
 
 aside {
