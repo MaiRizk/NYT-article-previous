@@ -84,8 +84,8 @@ video {
     margin: 0;
     padding: 0;
     border: 0;
-    font-size: 100%;
     font: inherit;
+    font-size: 100%;
     vertical-align: baseline;
 }
 
@@ -117,11 +117,11 @@ q {
     quotes: none;
 }
 
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-    content: '';
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+    content: "";
     content: none;
 }
 
@@ -134,8 +134,8 @@ table {
 /* Setting up box sizing */
 
 *,
-*:before,
-*:after {
+*::before,
+*::after {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -182,12 +182,12 @@ nav .container {
     cursor: pointer;
 }
 
-.search-btn>img {
+.search-btn img {
     width: 20px;
     cursor: pointer;
 }
 
-.left-nav-section>a {
+.left-nav-section a {
     text-decoration: none;
     color: black;
     font-family: nyt-franklin, helvetica, arial, sans-serif;
@@ -195,15 +195,11 @@ nav .container {
     font-size: 15px;
 }
 
-.left-nav-section>a:hover {
-    text-decoration: underline;
-}
-
-.middle-nav-section>a>img {
+.middle-nav-section a img {
     height: 30px;
 }
 
-.right-nav-section>button {
+.right-nav-section button {
     height: 35px;
     background-color: #5882a1;
     color: white;
@@ -220,10 +216,6 @@ nav .container {
     cursor: pointer;
 }
 
-.right-nav-section>button:hover {
-    background-color: #326891;
-}
-
 
 /* Styling the header */
 
@@ -231,7 +223,7 @@ header {
     margin: 50px 0;
 }
 
-header>h1 {
+header h1 {
     font-size: 40px;
     font-weight: 600;
     font-style: italic;
@@ -258,7 +250,7 @@ header>h1 {
     line-height: 20px;
 }
 
-.header-figcaption>span {
+.header-figcaption span {
     font-size: 13px;
     color: rgb(124, 120, 120);
 }
@@ -271,29 +263,25 @@ header>h1 {
     justify-content: space-between;
 }
 
-.figcaption-author>span {
+.figcaption-author span {
     font-weight: bold;
 }
 
-.figcaption-author>span>a {
+.figcaption-author span a {
     color: black;
     cursor: pointer;
     text-decoration: none;
     border-bottom: 1px solid lightgray;
 }
 
-.figcaption-author>span>a:hover {
-    border-bottom: unset;
-}
-
-.figcaption-author>time {
+.figcaption-author time {
     font-size: 13px;
 }
 
 
 /* styling the sign-up part */
 
-.sign-up>hr {
+.sign-up hr {
     border: 0.5px solid rgb(221, 215, 215);
 }
 
@@ -313,19 +301,14 @@ header>h1 {
     font-size: 15px;
 }
 
-.signup-btn:hover {
-    background-color: black;
-    color: white;
-}
-
-.signup-content>p>span {
+.signup-content p span {
     font-weight: bold;
     font-family: nyt-franklin, helvetica, arial, sans-serif;
     font-size: 14px;
     color: black;
 }
 
-.signup-content>p {
+.signup-content p {
     font-style: italic;
     color: rgb(48, 47, 47);
     width: calc(100% - 100px);
@@ -339,7 +322,7 @@ header>h1 {
     line-height: 30px;
 }
 
-.article>p {
+.article p {
     margin-bottom: 25px;
 }
 
@@ -369,7 +352,7 @@ header>h1 {
     cursor: pointer;
 }
 
-.article>p>a {
+.article p a {
     color: #2b7ab8;
 }
 
@@ -378,17 +361,16 @@ header>h1 {
 
 .editors-picks {
     font-family: nyt-franklin, helvetica, arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-    width: 20%;
+    position: absolute;
+    width: 15%;
 }
 
-.editors-picks>h3 {
+.editors-picks h3 {
     font-weight: bolder;
     font-size: 14px;
 }
 
-.editors-picks>hr {
+.editors-picks hr {
     border: 0.5px solid rgb(236, 231, 231);
     width: 200px;
     margin: 0;
@@ -405,7 +387,7 @@ header>h1 {
     margin: 10px 0;
 }
 
-.pick>a {
+.pick a {
     text-decoration: none;
     color: black;
     font-size: 13px;
@@ -416,19 +398,14 @@ header>h1 {
     line-height: 18px;
 }
 
-.pick>a:hover {
-    text-decoration: underline;
-}
-
 .second-section {
     position: relative;
     width: 100%;
 }
 
 aside {
-    position: absolute;
-    right: 80px;
     top: 100px;
+    left: 78%;
 }
 
 
@@ -444,7 +421,7 @@ aside {
     margin: auto;
 }
 
-.inflation-theory>span {
+.inflation-theory span {
     font-weight: bold;
     line-height: 40px;
     font-family: nyt-cheltenham, georgia, times new roman, times, serif;
@@ -458,8 +435,8 @@ aside {
     margin: 15px 0;
 }
 
-.inflation-theory>p {
-    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+.inflation-theory p {
+    font-family: nyt-imperial, georgia, "times new roman", times, serif;
     color: rgb(117, 113, 113);
     font-size: 14px;
     line-height: 18px;
@@ -470,6 +447,7 @@ aside {
 
 iframe {
     width: 100%;
+    border: 0;
 }
 
 .video-caption {
@@ -481,7 +459,7 @@ iframe {
     width: 80%;
 }
 
-.video-caption>span {
+.video-caption span {
     font-size: 13px;
     color: rgb(124, 120, 120);
 }
@@ -494,13 +472,13 @@ iframe {
     width: 50%;
 }
 
-.telescope>img {
+.telescope img {
     width: 100%;
     margin-top: 2em;
     margin-bottom: 0.5em;
 }
 
-.telescope>figcaption {
+.telescope figcaption {
     color: rgb(95, 92, 92);
     line-height: 20px;
     font-size: 16px;
@@ -508,7 +486,7 @@ iframe {
     margin-bottom: 3em;
 }
 
-.telescope>figcaption>span {
+.telescope figcaption span {
     font-size: 13px;
     color: rgb(124, 120, 120);
 }
@@ -525,13 +503,9 @@ iframe {
     font-weight: 500;
 }
 
-.article-end>span>a {
+.article-end span a {
     color: rgb(95, 92, 92);
     cursor: pointer;
-}
-
-.article-end>span>a:hover {
-    text-decoration: none;
 }
 
 
@@ -564,7 +538,7 @@ iframe {
 }
 
 .column {
-    width: calc(100%/6);
+    width: calc(100% / 6);
     font-family: nyt-franklin, helvetica, arial, sans-serif;
     font-size: 12px;
 }
@@ -576,7 +550,7 @@ footer {
     padding-bottom: 20px;
 }
 
-.column>h4 {
+.column h4 {
     margin-bottom: 10px;
     font-weight: bold;
 }
@@ -585,6 +559,36 @@ footer {
     margin-bottom: 10px;
 }
 
-.article-bottom>a {
+.article-bottom a {
     height: 30px;
 }
+
+
+/* Sytling hover actions for the whole page */
+
+.left-nav-section a:hover {
+    text-decoration: underline;
+}
+
+.right-nav-section button:hover {
+    background-color: #326891;
+}
+
+.figcaption-author span a:hover {
+    border-bottom: unset;
+}
+
+.signup-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.pick a:hover {
+    text-decoration: underline;
+}
+
+.article-end span a:hover {
+    text-decoration: none;
+}
+
+\n
